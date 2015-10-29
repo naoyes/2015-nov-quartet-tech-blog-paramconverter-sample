@@ -1,0 +1,21 @@
+AppBundle\Entity\Image:
+  image_1:
+    user: @user_1
+  image_2:
+    user: @user_1
+  image_3:
+    user: @user_2
+
+AppBundle\Entity\Address:
+  address_1:
+    zip: '100'
+
+AppBundle\Entity\User:
+  user_1:
+    name: 'user_1'
+    image: @image_1
+    address: @address_1
+  user_2:
+    name: 'user_2'
+    image: @image_3
+    address: @address_1
