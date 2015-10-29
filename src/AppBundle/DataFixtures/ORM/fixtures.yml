@@ -1,0 +1,10 @@
+AppBundle\Entity\Image:
+  image_1:
+    user: @user_1
+  image_2:
+    user: @user_1
+
+AppBundle\Entity\User:
+  user_1:
+    name: 'user_1'
+    image: @image_1
